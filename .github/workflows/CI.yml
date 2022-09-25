@@ -2,9 +2,9 @@ name: CI Angular
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "develop", "release","hotfixies" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "develop", "release", "hotfixies" ]
 jobs:
   build:
     runs-on: ubuntu-latest
