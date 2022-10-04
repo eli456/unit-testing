@@ -1,4 +1,4 @@
-export function greet (name : String) {
-    
-    return ('Welcome' + name);
+export function greet(name: String){
+    name == 'eli'
+    return ('Bienvenido '+ name)
 }
