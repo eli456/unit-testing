@@ -1,6 +1,6 @@
 export function compute (x: number ){
 	if (x < 0)
 	return 0;
-	
-	return-1;
+    else
+	return x+1;
 }
